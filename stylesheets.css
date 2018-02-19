@@ -1,0 +1,130 @@
+body{
+	padding: 0px;
+	margin: 0px;}
+.rit{
+background: #333;
+width:800px;
+height: 615px;
+padding: 0px;
+margin-left: 15px;
+position: relative;
+top: -40px;
+opacity: 1;
+display: inline-block;
+
+
+border-radius: 10px;
+}
+.sc1{
+	margin: 0px;
+	padding: 0px;
+	background: #211;
+	opacity:1;
+	border-radius: 25px;
+	width: 800px;
+	height: 35px;
+	box-shadow: 0px 2px 1px 1px white;
+    
+	position: relative;
+	top: 2px;
+	
+	color: salmon;
+	
+}
+.sc2{
+	width: 800px;
+	background: #e7e7e7;
+	height: 306px;
+	opacity: 1;
+	position: relative;
+	top: -11.5px;
+	/*animation: as4 3.5s ease 0s 1 reverse;*/
+	
+	color: #333;
+}
+.edu{
+	padding-top: 5px;
+	padding-left: 3px;
+    font-family: Oswald-Regular;
+	opacity: 1;
+	color: #333;
+}
+#l1{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in .1s 1 reverse,as4 .5s ease-in 8.6s 1 reverse;
+
+	}
+	#l2{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in .3s 1 reverse,as4 .5s ease-in 8.4s 1 reverse;
+
+	}
+	#l3{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in .5s 1 reverse,as4 .5s ease-in 8.2s 1 reverse;
+
+	}
+	#l4{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in .7s 1 reverse,as4 .5s ease-in 8s 1 reverse;
+
+	}
+	#l5{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in .9s 1 reverse,as4 .5s ease-in 7.8s 1 reverse;
+
+	}
+	#l6{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in 1.1s 1 reverse,as4 .5s ease-in 7.6s 1 reverse;
+
+	}
+	#l7{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in 1.3s 1 reverse,as4 .5s ease-in 7.4s 1 reverse;
+
+	}
+	#l8{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in 1.5s 1 reverse,as4 .5s ease-in 7.2s 1 reverse;
+
+	}
+	#l9{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in 1.7s 1 reverse,as4 .5s ease-in 7s 1 reverse;
+
+	}
+	#l10{
+    
+	transform: translateX(0px);
+	animation: as4 .5s ease-in 1.9s 1 reverse,as4 .5s ease-in 6.8s 1 reverse;
+
+	}
+
+
+#tit{
+	position: relative;
+	top:-5px;
+	left: 10px;
+	text-align: left;
+	font-family: Lobster-Regular;
+	
+}
+
+
+
+@keyframes as4{
+	0%{opacity: 1;transform: translateX(0px);}
+	50%{opacity: 1;transform: translateX(30px);}
+    100%{opacity:1;transform: translateX(0px);}
+
+}
